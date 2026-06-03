@@ -99,7 +99,7 @@ Supports case-insensitive matching.
 
 ### Task Search
 
-Administrators can search tasks by providing a username.
+Administrators can search tasks by providing a user's username who has their own tasks to see any user's tasks easily.
 
 Example:
 
