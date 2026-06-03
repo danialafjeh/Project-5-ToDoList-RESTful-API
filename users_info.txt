@@ -1,0 +1,18 @@
+Users information:
+Note : All info are examples...
+
+superuser :
+username = apidanial
+password = 1234567890
+
+user #1 :
+username = judy1
+password =  User12345678
+
+user #2 :
+username = panam2
+password = User87654321
+
+user #3 :
+username = reed3
+password = User135790
