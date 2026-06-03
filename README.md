@@ -90,7 +90,7 @@ Administrators can search users using partial username matching.
 Example:
 
 ```http
-GET /search/users/john/
+GET /api/search-user/danial
 ```
 
 Supports case-insensitive matching.
@@ -104,7 +104,7 @@ Administrators can search tasks by providing a username.
 Example:
 
 ```http
-GET /search/tasks/john/
+GET /api/search-task/danial
 ```
 
 Returns tasks belonging to matching users.
@@ -152,11 +152,11 @@ Swagger UI provides an interactive interface for exploring and testing API endpo
 
 * Python
 * Django
-* Django REST Framework
+* Django REST Framework (DRF)
 
 ### Authentication
 
-* DRF Token Authentication
+* Token Authentication
 
 ### Documentation
 
@@ -175,6 +175,7 @@ Swagger UI provides an interactive interface for exploring and testing API endpo
 The project follows a RESTful architecture using:
 
 * APIView-based endpoints
+  NOTE: Because of using APIView, Swagger may missed some of endpoints in documenting. for better analyzing, please read views.py too.
 * DRF Serializers
 * ModelSerializers
 * Permission Classes
@@ -230,19 +231,7 @@ This project was developed to demonstrate practical experience with:
 
 ---
 
-# 📈 Future Improvements
 
-Potential future enhancements include:
-
-* JWT Authentication
-* ViewSets and Routers
-* Advanced Filtering
-* Ordering Support
-* Automated Testing
-* Docker Deployment
-* PostgreSQL Support
-* Rate Limiting (Throttling)
-* CI/CD Integration
 
 ---
 
