@@ -233,10 +233,6 @@ This project was developed to demonstrate practical experience with:
 
 ---
 
-
-
----
-
 # 👨‍💻 Author
 
 Developed as a backend learning and portfolio project using Django REST Framework, focusing on secure API development, authentication, authorization, and resource ownership management.
