@@ -177,7 +177,6 @@ Swagger UI provides an interactive interface for exploring and testing API endpo
 The project follows a RESTful architecture using:
 
 * APIView-based endpoints
-  NOTE: Because of using APIView, Swagger may missed some of endpoints in documenting. for better analyzing, please read views.py too.
 * DRF Serializers
 * ModelSerializers
 * Permission Classes
