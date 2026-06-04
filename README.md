@@ -1,7 +1,7 @@
 # About Project
 # 🚀 To-Do List RESTful API
 
-A secure and fully functional Todo List REST API built with Django REST Framework (DRF). This project demonstrates authentication, authorization, user management, task management, pagination, search functionality, and API documentation using Swagger/OpenAPI.
+A secure and fully functional To-Do List REST API built with Django REST Framework (DRF). This project demonstrates authentication, authorization, user management, task management, pagination, search functionality, and API documentation using Swagger/OpenAPI.
 
 The API follows a permission-based architecture where users can only access and manage their own resources, while administrators have additional privileges for system-wide management and monitoring.
 
