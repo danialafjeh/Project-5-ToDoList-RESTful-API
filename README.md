@@ -136,7 +136,7 @@ Paginated endpoints include:
 # 📚 API Documentation
 
 The project includes automatic API documentation powered by OpenAPI and Swagger UI.
-
+NOTE: Because of using APIView, Swagger may missed some of endpoints in documenting. for better analyzing, please read views.py too.
 Available documentation endpoints:
 
 ```http
