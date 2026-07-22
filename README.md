@@ -1,8 +1,8 @@
-# About Project
+# 💻 About Project
 
 [Complete guide | Run This Project on your computer](https://github.com/danialafjeh/Run-My-Projects-Locally)
 
-# 🚀 To-Do List RESTful API
+# To-Do List RESTful API
 
 A secure and fully functional To-Do List REST API built with Django REST Framework (DRF). This project demonstrates authentication, authorization, user management, task management, pagination, search functionality, and API documentation using Swagger/OpenAPI.
 
@@ -12,9 +12,9 @@ The API follows a permission-based architecture where users can only access and 
 
 ---
 
-# 📌 Features
+# Features
 
-## 👤 User Management
+## User Management
 
 * User registration endpoint
 * User authentication using Token Authentication
@@ -28,7 +28,7 @@ The API follows a permission-based architecture where users can only access and 
 
 ---
 
-## ✅ Task Management
+## Task Management
 
 * Create new tasks
 * Retrieve all tasks belonging to the authenticated user
@@ -40,7 +40,7 @@ The API follows a permission-based architecture where users can only access and 
 
 ---
 
-## 🔐 Authentication & Authorization
+## Authentication & Authorization
 
 The project uses Django REST Framework Token Authentication.
 
@@ -73,7 +73,7 @@ Authorization rules include:
 
 ---
 
-# 🛡️ Security Features
+# Security Features
 
 * Token-based authentication
 * Owner-based access control
@@ -86,7 +86,7 @@ Authorization rules include:
 
 ---
 
-# 🔎 Search Functionality
+# Search Functionality
 
 ### User Search
 
@@ -116,7 +116,7 @@ Returns tasks belonging to matching users.
 
 ---
 
-# 📄 Pagination
+# Pagination
 
 Pagination is implemented using Django REST Framework's PageNumberPagination.
 
@@ -136,7 +136,7 @@ Paginated endpoints include:
 
 ---
 
-# 📚 API Documentation
+# API Documentation
 
 The project includes automatic API documentation powered by OpenAPI and Swagger UI.
 NOTE: Because of using APIView, Swagger may missed some of endpoints in documenting. for better analyzing, please read views.py too.
@@ -151,7 +151,7 @@ Swagger UI provides an interactive interface for exploring and testing API endpo
 
 ---
 
-# ⚙️ Technology Stack
+# Technology Stack
 
 ### Backend
 
@@ -175,7 +175,7 @@ Swagger UI provides an interactive interface for exploring and testing API endpo
 
 ---
 
-# 🏗️ Architecture Overview
+# Architecture Overview
 
 The project follows a RESTful architecture using:
 
@@ -190,7 +190,7 @@ The design focuses on clarity, security, and maintainability while demonstrating
 
 ---
 
-# 📋 Main API Capabilities
+# Main API Capabilities
 
 ### Authentication
 
@@ -218,7 +218,7 @@ The design focuses on clarity, security, and maintainability while demonstrating
 
 ---
 
-# 🎯 Project Goals
+# Project Goals
 
 This project was developed to demonstrate practical experience with:
 
@@ -235,7 +235,7 @@ This project was developed to demonstrate practical experience with:
 
 ---
 
-# 👨‍💻 Author
+# Purpose
 
 Developed as a backend learning and portfolio project using Django REST Framework, focusing on secure API development, authentication, authorization, and resource ownership management.
 
